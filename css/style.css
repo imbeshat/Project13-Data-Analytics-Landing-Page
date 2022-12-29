@@ -54,7 +54,6 @@ header {
 
 /* CSS for hero section */
 .hero-section {
-	/* position: relative; */
 	padding: 120px 240px 150px 240px;
 	display: flex;
 	flex-direction: row;
@@ -116,4 +115,38 @@ header {
 
 .main-image {
 	margin-top: -20px;
+}
+
+/* CSS for qubly section */
+.qubly {
+	background-color: #ffffff;
+	clip-path: polygon(0 23%, 100% 0, 100% 100%, 0 100%);
+	margin-top: -149px;
+	padding: 250px 240px 200px 240px;
+	text-align: center;
+}
+
+.qubly div p:first-child {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	column-gap: 10px;
+	color: #7a3ad4;
+	padding: 10px 20px;
+	margin: 0 395px 20px 395px;
+	background-color: #f7f1ff;
+	border-radius: 20px;
+	font-weight: 600;
+}
+
+.qubly div h1 {
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+
+.qubly div p:last-child {
+	color: #9898ad;
+	font-size: 16px;
+	font-weight: 600;
 }
