@@ -51,3 +51,85 @@ header {
 	font-size: 14px;
 	font-weight: 600;
 }
+
+/* CSS for hero section */
+.hero-section {
+	/* position: relative; */
+	padding: 120px 240px 150px 240px;
+	display: flex;
+	flex-direction: row;
+}
+
+.version {
+	width: 18vw;
+	color: #7a3ad4;
+	padding: 10px 20px;
+	background-color: #f7f1ff;
+	border-radius: 20px;
+	font-weight: 700;
+}
+
+.version a {
+	color: #7a3ad4;
+}
+
+.heading {
+	font-size: 50px;
+	font-weight: 700;
+}
+
+#head-para {
+	color: #959494;
+	font-size: 15.5px;
+	font-weight: 400;
+	padding: 30px 0 50px 0;
+	width: 30vw;
+	line-height: 30px;
+}
+
+.get-started {
+	color: #eef6ff;
+	background-color: #f4694c;
+	padding: 15px 35px;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.learn-more {
+	color: #eef6ff;
+	background: transparent;
+	border: 1px solid #fff;
+	padding: 15px 35px;
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 30px;
+}
+
+.play-btn img {
+	position: absolute;
+	top: 250px;
+	right: 410px;
+}
+
+.play-text {
+	display: flex;
+	position: absolute;
+	top: 520px;
+	right: 200px;
+	font-size: 25px;
+	margin-left: 60px;
+}
+
+.play-text img {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.play-text img[alt="dash"] {
+	margin-bottom: 60px;
+}
+
+.play-text img[alt="arrow"] {
+	margin-top: 80px;
+	margin-left: 50px;
+}
