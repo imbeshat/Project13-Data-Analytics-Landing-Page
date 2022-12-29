@@ -134,9 +134,9 @@ header {
 /* CSS for qubly section */
 .qubly {
 	background-color: #ffffff;
-	clip-path: polygon(0 23%, 100% 0, 100% 100%, 0 100%);
+	clip-path: polygon(0 19%, 100% 0, 100% 100%, 0 100%);
 	margin-top: -149px;
-	padding: 250px 240px 200px 240px;
+	padding: 280px 240px 120px 240px;
 	text-align: center;
 }
 
@@ -160,7 +160,18 @@ header {
 }
 
 .qubly div p:last-child {
-	color: #9898ad;
+	color: #9797ae;
 	font-size: 16px;
-	font-weight: 600;
+	font-weight: 500;
+}
+
+.all3-steps {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.all3-steps div h4 {
+	margin: 10px 0 20px 0;
 }
