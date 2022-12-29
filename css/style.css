@@ -14,3 +14,40 @@ body {
 	overflow-x: hidden;
 	background-color: #0e0e0e;
 }
+
+/* CSS for header */
+header {
+	background: linear-gradient(to bottom, #ffffff, #e3f2ff);
+	clip-path: polygon(0 0, 100% 0, 100% 79%, 0% 100%);
+}
+
+/* CSS for nav bar */
+.navbar {
+	display: flex;
+	flex-direction: row;
+	padding: 20px 240px;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.nav-list {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 45px;
+	color: #000000;
+}
+
+.btn-start {
+	color: #7a3bd3;
+	background-color: transparent;
+	border-radius: 30px;
+	border: 2px solid #7a3bd3;
+	padding: 10px 25px;
+	font-size: 14px;
+	font-weight: 600;
+}
