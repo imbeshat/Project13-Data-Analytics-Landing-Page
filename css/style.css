@@ -317,6 +317,17 @@ header {
 }
 
 .signup-form {
+	/* position: relative; */
+	background-color: #f9f0ff;
+	width: 50%;
+}
+
+.form-div {
+	/* position: absolute; */
+	background-color: #fff;
+	border: 2px solid #fcfcfd;
+	box-shadow: 3px 3px 3px 0 #fcfcfd, -3px -3px 3px 0 #fcfcfd;
+	/* padding: 30px 30px; */
 }
 
 .signup-form form {
@@ -324,4 +335,49 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.signup-form form h1 {
+	margin: 30px 0 20px 0;
+	font-size: 25px;
+}
+
+.signup-form form button {
+	background-color: #722ed1;
+	color: #eee5f9;
+	padding: 14px 100px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.signup-form form input {
+	color: #9090a8;
+	padding: 14px 120px 14px 15px;
+	font-size: 16px;
+	border: 2px solid #d9d9d9;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.signup-form form img {
+	margin: 20px 0;
+}
+
+.signup-hr {
+	border: 0.5px solid #e2e2e8;
+	width: 80%;
+}
+
+.signup-form form p {
+	color: #8989a2;
+	margin: 10px 0 30px 0;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.signup-form form p a {
+	color: #722ed1;
+	text-decoration: none;
 }
