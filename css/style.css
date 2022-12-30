@@ -257,3 +257,71 @@ header {
 	justify-content: space-around;
 	margin-top: 30px;
 }
+
+/* CSS for sign up section */
+.signup-section {
+	background-color: #fff;
+	clip-path: polygon(0 35%, 100% 0, 100% 100%, 0% 100%);
+	padding: 450px 240px 200px 240px;
+	margin-top: -220px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* .section-text {
+	padding-right: 90px;
+	margin-right: -90px;
+} */
+
+.section-text h1 {
+	font-size: 33px;
+}
+
+.hr-text {
+	line-height: 1em;
+	position: relative;
+	outline: 0;
+	border: 0;
+	text-align: center;
+	height: 1.5em;
+	margin: 30px 0 50px 0;
+}
+
+.hr-text:before {
+	content: "";
+	background: #eaeaea;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	height: 3px;
+}
+
+.hr-text:after {
+	content: attr(data-content);
+	position: relative;
+	display: inline-block;
+	padding: 0 1.5em;
+	line-height: 1.5em;
+	color: #9898ae;
+	background-color: #ffffff;
+}
+
+.section-text div {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	row-gap: 80px;
+	column-gap: 60px;
+}
+
+.signup-form {
+}
+
+.signup-form form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
