@@ -261,19 +261,14 @@ header {
 /* CSS for sign up section */
 .signup-section {
 	background-color: #fff;
-	clip-path: polygon(0 35%, 100% 0, 100% 100%, 0% 100%);
-	padding: 450px 240px 200px 240px;
+	clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+	padding: 350px 240px 240px 240px;
 	margin-top: -220px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 }
-
-/* .section-text {
-	padding-right: 90px;
-	margin-right: -90px;
-} */
 
 .section-text h1 {
 	font-size: 33px;
@@ -317,17 +312,30 @@ header {
 }
 
 .signup-form {
-	/* position: relative; */
+	position: relative;
 	background-color: #f9f0ff;
 	width: 50%;
 }
 
 .form-div {
-	/* position: absolute; */
+	position: absolute;
+	background-color: #f9f0ff;
+	border: 2px solid #f9f0ff;
+	padding-left: 28px;
+	border-radius: 5px;
+	top: -200px;
+	width: 99%;
+	height: 525px;
+}
+
+.form-in-div {
+	position: absolute;
 	background-color: #fff;
-	border: 2px solid #fcfcfd;
-	box-shadow: 3px 3px 3px 0 #fcfcfd, -3px -3px 3px 0 #fcfcfd;
-	/* padding: 30px 30px; */
+	border: 2px solid #fcfafd;
+	padding: 0 40px;
+	border-radius: 10px;
+	top: -40px;
+	z-index: 9;
 }
 
 .signup-form form {
