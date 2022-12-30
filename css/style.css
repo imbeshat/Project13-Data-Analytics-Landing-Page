@@ -175,3 +175,24 @@ header {
 .all3-steps div h4 {
 	margin: 10px 0 20px 0;
 }
+
+/* CSS for stack section */
+.stack {
+	background-color: #ffffff;
+	padding: 30px 0 50px 240px;
+}
+
+.both-stack {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.prod-stack {
+	margin-right: 240px;
+}
+
+.eng-stack {
+	margin-right: 30px;
+}
