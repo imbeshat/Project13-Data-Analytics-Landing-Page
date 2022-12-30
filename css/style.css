@@ -179,7 +179,9 @@ header {
 /* CSS for stack section */
 .stack {
 	background-color: #ffffff;
-	padding: 30px 0 50px 240px;
+	clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+	padding: 30px 0 220px 240px;
+	margin-top: -10px;
 }
 
 .both-stack {
@@ -194,5 +196,33 @@ header {
 }
 
 .eng-stack {
-	margin-right: 30px;
+	margin-top: 100px;
+}
+
+.prod-eng-team {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	column-gap: 10px;
+	color: #7a3ad4;
+	padding: 8px 0;
+	background-color: #f7f1ff;
+	border-radius: 20px;
+	font-weight: 600;
+	margin: 0 240px 20px 0;
+}
+
+.eng-team {
+	margin-right: 210px;
+}
+
+.stacks-div h1 {
+	font-size: 30px;
+}
+
+.stacks-div p:last-child {
+	color: #9797ae;
+	margin-top: 30px;
+	font-weight: 500;
 }
