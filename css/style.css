@@ -226,3 +226,34 @@ header {
 	margin-top: 30px;
 	font-weight: 500;
 }
+
+/* CSS for sullivan section */
+.sullivan {
+	background: linear-gradient(to bottom, #fcf8ff, #f4f8ff);
+	clip-path: polygon(0 22%, 100% 0, 100% 75%, 0% 100%);
+	text-align: center;
+	padding: 240px 240px;
+	margin-top: -190px;
+}
+
+.sullivan p {
+	color: #160637;
+	font-size: 25px;
+	font-weight: 500;
+	margin-bottom: 35px;
+}
+
+.sullivan h4 {
+	margin: 30px 0 30px 0;
+}
+
+.sullivan hr {
+	border-top: 3px solid #eae0fc;
+}
+
+.sullivan div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 30px;
+}
