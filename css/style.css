@@ -389,3 +389,59 @@ header {
 	color: #722ed1;
 	text-decoration: none;
 }
+
+/* CSS for footer section */
+footer {
+	background-color: #fbfcff;
+	color: #160637;
+	padding: 60px 200px 120px 240px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+footer p {
+	font-size: 12px;
+	line-height: 25px;
+	font-weight: 500;
+}
+
+footer li {
+	font-size: 12px;
+	list-style-type: none;
+	padding: 6px 0;
+	font-weight: 600;
+}
+
+.li-head {
+	font-size: 16px;
+	padding-bottom: 10px;
+	font-weight: 700;
+}
+
+.social-icons {
+	padding-top: 10px;
+}
+
+.social-icons img {
+	padding-right: 10px;
+}
+
+.input-li {
+	position: relative;
+}
+
+.input-li img {
+	position: absolute;
+	top: 15px;
+	right: 10px;
+}
+
+footer input {
+	background-color: #fff;
+	border: none;
+	color: #8989a2;
+	padding: 10px 10px;
+	font-size: 13px;
+	box-shadow: 2px 2px 2px rgba(175, 175, 175, 0.2), -2px -2px 2px rgba(175, 175, 175, 0.2);
+}
